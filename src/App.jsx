@@ -9,13 +9,13 @@ export default function App() {
         validUntil: Math.floor(Date.now() / 1000) + 60,
         messages: [
           {
-            address: "UQAPRU6cHYSkS8hIxl-zbcts9yt8_GtYcSh_R0nbYnWL5lFX", // GANTI WALLET KAMU
+            address: "UQAPRU6cHYSkS8hIxl-zbcts9yt8_GtYcSh_R0nbYnWL5lFX", // WALLET KAMU
             amount: "100000000" // 0.1 TON
           }
         ]
       });
     } catch (e) {
-      console.log("User cancel / error");
+      console.log("cancel / error");
     }
   };
 
@@ -25,7 +25,7 @@ export default function App() {
       textAlign:"center",
       paddingTop:"50px"
     }}>
-      <h1>Mint Token</h1>
+      <h1>Mint TON</h1>
 
       <TonConnectButton />
 
@@ -40,7 +40,7 @@ export default function App() {
           borderRadius:"10px"
         }}
       >
-        Mint (0.1 TON)
+        Mint 0.1 TON
       </button>
     </div>
   );
