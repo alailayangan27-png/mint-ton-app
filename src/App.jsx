@@ -9,7 +9,7 @@ export default function App() {
         validUntil: Math.floor(Date.now() / 1000) + 60,
         messages: [
           {
-            address: "EQXXXXXXXXXXXXXXX", // GANTI WALLET KAMU
+            address: "UQAPRU6cHYSkS8hIxl-zbcts9yt8_GtYcSh_R0nbYnWL5lFX", // GANTI WALLET KAMU
             amount: "100000000" // 0.1 TON
           }
         ]
